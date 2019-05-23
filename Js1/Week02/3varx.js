@@ -1,6 +1,6 @@
 let x
-console.log ("the value of my variable x will be: greater athan 21");
-console.log (x)
+console.log (x++); //undefined
+console.log (x); //undefined
 x = 22
-console.log ("the value of x is less than 23")
-console.log (x)
+console.log (x++);
+console.log (x); //x=23
