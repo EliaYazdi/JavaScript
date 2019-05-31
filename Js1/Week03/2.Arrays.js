@@ -18,3 +18,8 @@ console.log(favoriteAnimals);
  //2.7  delete the giraff from the array
  favoriteAnimals.splice(3,1);
  console.log(favoriteAnimals);
+
+ //2.9 the position or the index of Meerkat in the array
+let index = favoriteAnimals.findIndex (favoriteAnimals => favoriteAnimals === "Meerkat");
+console.log ("The item you are looking for is at index: " + index);
+console.log (favoriteAnimals[index]);
