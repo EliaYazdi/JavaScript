@@ -17,3 +17,19 @@ let $3years;
 // let elia/yazdi; // no symbols in the midlle is allowed
 // we use camel case to distinguish between the words and know when the new word starts
 //let function; we cannot use reserved JS words as well
+
+//type coercion  : javascript changes the type of number into a string in console.log to read it
+//alert(firstName + '' + lastName);
+
+//var birthDay = prompt('when is her birthday?');
+//console.log (fistName + ' '+ birthDay); 
+
+
+
+var year, yearJohn, yearMark;
+now = "2018";
+ageJohn = 29;
+ageMark = 33;
+ 
+var johnOlder = ageJohn > ageMark;
+console.log(johnOlder);
