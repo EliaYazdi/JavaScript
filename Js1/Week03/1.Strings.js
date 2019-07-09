@@ -1,9 +1,8 @@
 let myString = "hello,this,is,a,difficult,to,read,sentence";
 console.log(myString);
-var length = myString.length;
-console.log (length);
+console.log (myString.length);
 
 //Find a way to remove the commas from the string and replace them with spaces:
 
-myString = "hello this is a difficult to read sentence";
+myString = myString.replace(/,/ , "");
 console.log (myString);
